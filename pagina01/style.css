@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'Got';
+    src: url('fontes/Game\ of\ Thrones.ttf') format('truetype');
+    font-weight: normal;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --cor01: #686573;
+    --cor02:#0B0A0D;
+    --cor03: #212026;
+    --cor04:#9D9CA6;
+    --cor05:#BFBFBF;
+    --cor06:#1B4859;
+    --cor07:#3B758C;
+    --cor08:#6FA8BF;
+    --cor09:#0D1F26;
+
+    --fontegot: 'Got',serif;
+    --fontopen: 'Open Sans', 'sans serif';
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor06), var(--cor07));
+}
+
+header > h1 {
+    font-family: var(--fontegot);
+    text-align: center;
+}
+
+header > p {
+    font-family: var(--fontopen);
+    text-align: center;
+    font-size: larger;
+}
+
+nav  {
+    background-color: var(--cor06);
+}
